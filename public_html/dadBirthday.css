@@ -1,0 +1,78 @@
+/* 
+    Document   : dadBirthday
+    Created on : Jan 25, 2014, 3:40:08 PM
+    Author     : langstonmacdiarmid
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body { 
+    background-color:#6b6d6d;
+}
+
+#balloon
+{
+    position: absolute;
+    height: 80%;
+    width:18%;
+    margin-left:67%;
+    margin-top:5%;
+}
+
+#cakeBottom
+{
+    position:absolute;
+    height:70%;
+    width:70%;
+    margin-left:13%;
+    margin-top:15%;
+}
+
+#concealer
+{
+    position:absolute;
+    height:30%;
+    width:48%;
+    margin-left:20%;
+    margin-top:25%;
+    background-color:#6b6d6d;
+}
+
+#cakeTop
+{
+    position:absolute;
+    height:70%;
+    width:70%;
+    margin-left:13%;
+    margin-top:15%;
+}
+
+
+
+
+#buttonUpCircle
+{
+    position:absolute;
+    height:9%;
+    width:11%;
+    margin-left:71%;
+    margin-top:41%;
+    /*background-color:red;*/
+    border-radius:35%;
+    z-index:2;
+    
+}
+
+.button
+{
+    position:absolute;
+    height:25%;
+    width:18%;
+    margin-left:68%;
+    margin-top:40%;
+}
+
+
+
+#buttonPushed{}
+#buttonUp{}
