@@ -19,6 +19,15 @@ body {
     margin-top:5%;
 }
 
+#lang
+{
+    position: absolute;
+    height: 10%;
+    width:13%;
+    margin-left:69.5%;
+    margin-top:10%;
+}
+
 #cakeBottom
 {
     position:absolute;

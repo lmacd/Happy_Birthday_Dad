@@ -1,20 +1,30 @@
-$(window).load(function(){
-    var counter = 2;
+$(window).load(function() {
+    var counter = 1;
+    //alert($(window).width());
+    //alert($(window).height());
+    try{window.resizeTo(1047, 750);}
+    catch(e){};
     $('#buttonPushed').hide();
-    $('#buttonUpCircle').mousedown(function(){
+    $('#lang').hide();
+    $('#buttonUpCircle').mousedown(function() {
         counter++;
-        if(counter%2===0)
-            {
-              $('#cakeTop',"#concealer").animate({'margin-top':"0%"});
-            }            
-        else if(counter%2===1)
-            {
-            $('#cakeTop',"#concealer").animate({'margin-top':"15%"});
-            }            
+        if (counter % 2 === 0)
+        {
+            $('#cakeTop').animate({'margin-top': "1%"});
+            $('#concealer').animate({'margin-top': "10%"});
+            $('#lang').fadeIn();
+        }
+        else if (counter % 2 === 1)
+        {
+            $('#cakeTop').animate({'margin-top': "15%"});
+            $('#concealer').animate({'margin-top': "25%"});
+            $('#lang').fadeOut();
+
+        }
         $('#buttonUp').hide();
         $('#buttonPushed').show();
     });
-    $('#buttonUpCircle').mouseup(function(){
+    $('#buttonUpCircle').mouseup(function() {
         $('#buttonPushed').hide();
         $('#buttonUp').show();
     });
